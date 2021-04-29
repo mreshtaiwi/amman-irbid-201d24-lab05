@@ -77,8 +77,8 @@ Test this function by hand in the console to get it working, and when you think 
 let testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) {
-  let sum1= sum (testArray[0],testArray[1])[0];
-  let sum2= sum(sum1,testArray[2])[0];
+  let sum1= sum (sumArr[0],sumArr[1])[0];
+  let sum2= sum(sum1,sumArr[2])[0];
   return[sum2,"2,3,4 was passed in as an array of numbers, and 9 is their sum."];
 }
 
@@ -100,8 +100,8 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) {
-  let multi1=multiply(testArray[0],testArray[1])[0];
-  let multi2=multiply(multi1,testArray[2])[0];
+  let multi1=multiply(multArr[0],multArr[1])[0];
+  let multi2=multiply(multi1,multArr[2])[0];
   return[multi2,"The numbers 2,3,4 have a product of 24."]
 }
 
