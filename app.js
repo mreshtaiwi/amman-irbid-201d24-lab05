@@ -80,7 +80,7 @@ let testArray = [2, 3, 4];
 function sumArray(sumArr) {
  let sum1 = sum(testArray[0],testArray[1])[0];
  let sum2 = sum( sum1, testArray[2])[0];
-  return [ sum2 , "2,3,4 was passed in as an array of numbers, and 9 is their sum." ];
+  return [ sum2 , "2,3,4 was passed in as an array of numbers, and 9 is their sum." ]
 }
 
 // Here is the test for sumArray(); uncomment it to run it
@@ -101,10 +101,11 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) {
-let multiply1 = multiply(testArray[0], testArray[1])[0];
+  let multiply1 = multiply(testArray[0], testArray[1])[0];
 let multiply2 = multiply(multiply1, testArray[2])[0];
-return[multiply2,"The numbers 2,3,4 have a product of 24." ];
+return [multiply2, "The numbers 2,3,4 have a product of 24." ] 
 }
+
 
 // Here is the test for multiplyArray(); uncomment it to run it
 testMultiplyArray(testArray);
